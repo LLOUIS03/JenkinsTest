@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'sudo chmod +x ./jenkins/scripts/test.sh'
+                sh 'npm run test'
             }
         }
         stage('Deliver'){
