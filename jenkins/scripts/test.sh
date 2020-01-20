@@ -1,1 +1,1 @@
-npm install --save-dev cross-env
+npm run test
